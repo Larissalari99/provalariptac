@@ -1,0 +1,20 @@
+:root {
+  --cor-principal: #6d4fc6;
+  --cor-fundo: #f4efff;
+  --cor-detalhe: #7a6ea3;
+  font-family: system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #f7f1ff 0%, #f1ebff 100%);
+  color: #1f1a2d;
+}
+
+#root {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+}
